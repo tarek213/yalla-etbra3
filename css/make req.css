@@ -1,0 +1,84 @@
+body
+{
+    overflow: hidden;
+}
+.btn
+{
+        box-shadow: 1px 1px 6px -1px rgb(255, 255, 255);
+    font-size: 2.2rem;
+    margin-left: 100px;
+    margin-top: 180px;
+    background-color: rgba(0,0,0,0.3);
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 11px;
+    padding: 16px;
+}
+.btn-primary:hover
+{
+    background-color:transparent;
+    border color: transparent;
+}
+.btn-primary:active
+{
+        background-color: rgba(0,0,0,0.3);
+    
+}
+.btn-primary:focus{
+        background-color: rgba(0,0,0,0.3);
+}
+
+div form.enter
+{
+   width: 35%;
+    margin-left: 45%;
+    margin-top: 0px;
+    height: 587px;
+    background-color: rgba(0,0,0,0.129412);
+    border-radius: 15px;
+}
+label
+{
+    text-shadow: 1px 1px 1px #d1caca;
+    font-size: 31px;
+    margin-bottom: 3.5rem;
+    margin-top: 3.5rem;
+    margin-left: 25%;
+    font-style: italic;
+    line-height: 45px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.form-control
+{
+    margin-left: 17%;
+    border-radius: 1.25rem;
+    width: 63%;
+}
+.btn1
+{
+    text-shadow: 1px 1px 1px black;
+    margin-left: 35%;
+    margin-top: 50px;
+    background-color: rgba(0,0,0,0.3);
+}
+.firstlab
+{
+    margin-left: 34%;
+}
+.btn2
+{
+    position: fixed;
+    background-color:rgba(0,0,0,0.3); 
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color:rgba(0,0,0,0.3) ; 
+    border-color: rgba(0,0,0,1);
+}
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 1px 1px 25px rgb(162, 158, 158)}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.3);
+}

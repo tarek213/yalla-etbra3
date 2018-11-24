@@ -1,0 +1,180 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(../img/bricks.jpg);
+    background-attachment: fixed;
+    height: 2000px;
+    background-repeat: no-repeat;
+    background-size: 1525px;
+    padding-top: 106px; /* to make the content of the page start after the end of the navbar */
+    max-width: 1489px;
+}
+
+/*********************************
+to change the navbar's Text size *
+**********************************/
+
+nav{
+    font-size: 150%;
+}
+
+/*****************************************************************
+to make navbar take all the screen width and be fixed in the top *
+******************************************************************/
+.navbar{
+    width: 100%;
+}
+
+.navbar-nav{
+    width: 100%;
+}
+
+/****************************************
+to make navbar's background transparent *
+*****************************************/
+
+.bg-light{
+background-color: rgba(0, 0, 0, 0.12941176470588237);
+}
+
+/************************************
+to make navbar's links with shadow  *
+*************************************/
+
+.navbar-light .navbar-nav .nav-link {
+    text-shadow: #da2a30 2px 3px 10px;
+}
+
+/*********************
+navbar links's color *
+**********************/
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active{
+    color:white;
+}
+
+/************************************
+margin between links in the navbar  *
+*************************************/
+
+.nav-item{
+    margin-left:30px;
+}
+
+/************************************
+set the size of logo in the navbar  *
+*************************************/
+
+.logo{
+    height: 80px;
+    width: 115px;
+}
+
+/************************************
+set the size of social media icons  *
+*************************************/
+
+.social-icon{
+    width: 48px;
+    height: 45px;
+    margin-right: 16px;
+}
+.circle {
+    display: inline;
+   float: left;
+        background-color: rgba(56, 32, 32, 0.36);
+    border: 1px solid #c75454;
+    height: 500px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 500px;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    box-shadow: 18px 23px 40px #421818;
+        -webkit-transition: width 2s, height 4s;
+    transition: width 1s, height 1s;
+}
+.circle p {
+    margin-bottom: 30rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-top: 7rem;
+    font-size: 62px;
+    color: #d62328d9;
+    text-shadow: 10px 10px 22px rgba(7, 0, 0, 0.92);
+}
+.circle:hover {
+    transition: all 0.5s step-end;
+    transform-origin: center;
+    transition-timing-function: linear;
+    transform: scale(1.2,1.2);
+     background-color: #dc35454d;
+}
+.button {
+     display: inline-block;
+    border-radius: 4px;
+    background-color: rgba(22, 1, 1, 0);
+    border: none;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px #b42824;
+    text-align: center;
+    font-size: 46px;
+    padding: 20px;
+    width: 246px;
+    height: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 127px;
+    margin-top: 100px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+        margin-top: 40px;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:active ,.button:focuss{
+    outline: none;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.link {
+    text-shadow: #da2a30 2px 3px 10px;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color:white;
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}

@@ -1,0 +1,35 @@
+body{
+    padding-top: 200px;
+    padding-left: 50px;
+}
+.card{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px black;
+    margin-bottom: 30px;
+    transition: all .5s ease-in-out;
+
+}
+
+.card:hover{
+    transform: scale(1.05,1.05);
+}
+
+.card-img-top{
+    height: 12rem;
+}
+
+h4{
+    color: #c70008;
+    text-shadow: 1px 1px 2px #8c8383;
+}
+h5{
+    text-shadow: 1px 1px 2px #8c8383;
+}
+.textFMEss{
+    height: 300px;
+    text-align: center;
+}
+.roww{
+    margin-bottom: 30px;
+}

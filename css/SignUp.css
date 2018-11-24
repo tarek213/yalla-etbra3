@@ -1,0 +1,109 @@
+.signup{
+    width: 80%;
+}
+.containForm{
+        position:relative;
+
+}
+.textF{
+    height: 61px;
+    border-radius: 10px;
+    padding: 25px;
+    border: none;
+    text-align: center;
+    box-shadow: 1px 1px 15px #534747;
+    margin-bottom: 55px;
+
+}
+
+.textF:focus{
+    outline: none;
+    box-shadow: 1px 1px 15px #000000;
+}
+
+form{
+    padding: 60px 30px;
+    margin-top: 65px;
+    background-color: rgba(70, 70, 70, 0.27);
+    border-radius: 20px;
+    box-shadow: 1px 1px 25px #000000b0;
+}
+.signup-btn{
+    outline: none;
+    height: 75px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 30px;
+    box-shadow: 2px 2px 10px #303030;
+
+}
+.signup-btn:hover{
+    transition:all .5s ease-in-out;
+    transform: scale(1.1,1.1);
+}
+.signup-btn:active{
+    transition:all .5s ease-in-out;
+    transform: scale(.9,.9);
+}
+
+
+.signup-blood{
+ margin-bottom: 40px;   
+}
+.verify{
+    position: absolute;
+    left: 900px;
+    top: 22px;
+}
+
+label{
+    color: white;
+    text-shadow: 2px 1px 3px #000000d9;
+    transition: all .5s ease-in-out;
+}
+
+.textF + label{
+    position: absolute;
+    font-size: 1.1rem;
+    color: white;
+    text-shadow: 2px 1px 3px #000000d9;
+    top: 17px;
+    left: 450px;
+    color: #00000066;
+    text-shadow: 2px 1px 3px #ffffffd9;
+    transition: all .5s ease-in-out;
+   
+}
+label.lbl-name{
+    left: 200px;
+}
+
+label.lbl-email{
+    left: 460px;
+}
+
+label.lbl-password{
+    left: 450px;
+}
+
+label.lbl-confPassword{
+    left: 420px;
+}
+
+label.lbl-phone{
+    left: 435px;
+}
+
+.textF:focus + label {
+    top: -32px;
+    color: white;
+    text-shadow: 2px 1px 3px #000000d9;
+    transition: all .4s ease-in-out;
+}
+
+.has-data label {
+    top: -32px;
+    color: white;
+    text-shadow: 2px 1px 3px #000000d9;
+    transition: all .4s ease-in-out;
+}
